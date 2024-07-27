@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="title">
+        <h1>BASKET BALL SCORE BOARD</h1>
+        <div class="container">
+            <div>
+                <h1 class="headings">HOME</h1>
+                <h2 class="home-score" id="home-points-text1">0</h2>
+                <div class="add-points-btns-home">
+                    <button id="point-one" onclick="increment1a()">+1</button>
+                    <button id="point-two" onclick="increment2a()">+2</button>
+                    <button id="point-three" onclick="increment3a()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h1 class="headings" id="guest">GUEST</h1>
+                <h2 class="home-score" id="home-points-text2">0</h2>
+                <div class="add-points-btns-home">
+                    <button id="point-one" onclick="increment1b()">+1</button>
+                    <button id="point-two" onclick="increment2b()">+2</button>
+                    <button id="point-three" onclick="increment3b()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button class="btn-reset" id="resetButton" onclick="resetButton()">RESET</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
